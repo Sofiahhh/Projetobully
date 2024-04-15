@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+   }
+   
+  #el1 {
+    position: relative;
+  }
+
+  .resp {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  #jogar {
+    display: block;
+    box-shadow: 5px 5px 5px rgb(60, 60, 60);
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgb(131, 207, 255);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  #jogar:hover {
+    background-color: #0062b3;
+  }
+
+  @media (max-width: 768px) {
+    .jogar {
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .jogar {
+      padding: 3px 6px;
+      font-size: 12px;
+    }
+  }

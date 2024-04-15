@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+ }
+ 
+#el1 {
+  position: relative;
+}
+
+.resp {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.img-responsive {
+  object-fit: cover;
+ }
+ 
+ .button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+ }
+
+ #opcao1:hover {
+  background-color: #439845;
+}
+
+#opcao2:hover {
+  background-color: #439845;
+}
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ }
+ 
+ .my-button {
+  /* Default button styles */
+  box-shadow: 5px 5px 5px rgb(60, 60, 60);
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #53b656;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+ }
+ 
+ .ml-20 {
+  margin-left: 20px;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+ .my-button {
+  /* Tablet button styles */
+  padding: 5px 10px;
+  font-size: 14px;
+  }
+ }
